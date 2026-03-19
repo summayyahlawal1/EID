@@ -1,0 +1,83 @@
+
+.vip-products{
+display: flex;
+justify-content: center;
+gap: 30px;
+padding: 40px;
+flex-wrap: wrap;
+}
+
+.card{
+background: #1a1a1a;
+padding: 20px;
+width: 220px;
+border-radius: 15px;
+box-shadow: 0 0 15px gold;
+transition: 0.3s;
+}
+
+.card:hover{
+box-shadow: 0 0 25px gold;
+}
+
+.card img{
+width: 100%;
+border-radius: 10px;
+}
+
+button:hover{
+background: white;
+}
+.payment-container{
+background: #1a1a1a;
+padding: 30px;
+border-radius: 15px;
+width: 300px;
+box-shadow: 0 0 20px gold;
+}
+
+h1{
+text-align: center;
+color: gold;
+}
+
+label{
+display: block;
+margin-top: 10px;
+}
+
+input{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: none;
+border-radius: 8px;
+}
+
+.row{
+display: flex;
+gap: 10px;
+}
+
+button{
+width: 100%;
+margin-top: 20px;
+padding: 12px;
+background: gold;
+border: none;
+border-radius: 10px;
+font-weight: bold;
+cursor: pointer;
+}
+
+button:hover{
+background: white;
+}
+
+.back{
+display: block;
+text-align: center;
+margin-top: 15px;
+color: gold;
+text-decoration: none;
+}
